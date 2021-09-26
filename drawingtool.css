@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background: url(toy-3200969_1920.jpg) center center fixed;
+    background-size: cover;
+}
+#header{
+    
+    font-size: 4vw;
+    height: 120px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+}
+.input{
+    height: 30px; 
+    font-size: 1.3em;
+}
+#slider{
+    margin: 10px auto;
+}
+#circle{
+    background: black;
+    border-radius: 50%;
+    height: 3px;
+    width: 3px;
+    margin:0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#thicknessInput{
+    position:relative;
+}
+#container{
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    margin:10px auto;
+}
+#paint{
+    background-color: white;
+    cursor: crosshair;
+}
+.input2{
+  width: 200px;
+  height: 40px;
+  font-size: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.input2:hover{
+    background-color: #fff8dc;
+}
+button:active{
+ top:4px;
+}
+.eraseMode{
+    background-color: red;
+    color: white;
+}
+#footer{
+    float: left;
+    margin: 10px 0;
+}

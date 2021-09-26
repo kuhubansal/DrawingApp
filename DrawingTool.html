@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drawing Tool</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/start/jquery-ui.css">
+        
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+        
+        <link rel="stylesheet" href="drawingtool.css">
+    
+    
+</head>
+<body>
+    <div id="header"> Drawing App</div>
+    <div class="inputContainer">
+        <div class="input" id="colorInput">
+            <input type="color" list id="paintColor">
+        </div>
+        <div class="input" id="thicknessInput">
+            <div id="circle"></div>
+        </div>
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+        
+        
+    
+    </div>
+    <div id="container">
+        <canvas id="paint" height="500px" width="900px"></canvas>
+      </div>
+      <div id="inputContainer2">
+        <button class="input2" id="save">Save</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="input2" id="erase">Erase</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="input2" id="reset">Reset</button>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <div class="container-fluid">
+          <div id="footer">
+          
+              &copy; Developed by Kuhu 
+          
+        </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="drawingtool.js"></script>
+</body>
+</html>
